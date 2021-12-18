@@ -1,0 +1,126 @@
+.body{
+  display: flex;
+  width: flex-basis;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  right: 0%;
+  top: 0%;
+  height: 28px;
+  box-shadow: 0 4px 0 0 purple;
+  position: fixed;
+  word-spacing: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+  background-color: purple;
+}
+
+.obj{
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: inherit;
+  color: white; 
+}
+
+.image{
+  margin-top: 74px;
+  position: relative;
+  text-align: center;
+}
+  
+.ele{
+  /* border: orchid 2px solid; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: flex-basis;
+}
+
+
+
+
+#loaf{
+  font-size: 85px;
+  font-family: sans-serif;
+  color: palevioletred;
+  margin: 0px;
+}
+
+#imeg{
+  background-image:image();
+  left: 0%;
+}
+
+#slice{
+  font-size: 45px;
+  font-family: sans-serif;
+  color:plum;
+  margin-top: 10px;
+
+}
+.space{
+  margin-top: 40px;
+}
+
+
+
+.banner{
+ 
+ background: url("./background.jpg");
+ right: 0%;
+ left: 0%;
+ background-size: cover;
+ background-position: center;
+}
+#About{
+ color: palevioletred;
+ font-family: serif;
+}
+#Shopping{
+ color: palevioletred;
+ font-family: serif;
+}
+#Contact{
+ color: palevioletred;
+ font-family: serif;
+}
+#Batman{
+ color: palevioletred;
+ font-family: serif;
+}
+#miny{
+ color: palevioletred;
+ font-family: serif;
+}
+#a{
+ color:plum;
+ font-family: serif;
+}
+
+#b{
+  color:palevioletred;
+  font-family: serif;
+}
+#angry{
+ color: purple;
+ font-family: sans-serif;
+ width: flex-basis;
+}
+.button {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
